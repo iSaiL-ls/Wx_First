@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "Tabs": "../../components/Taps/Tabs"
+  },
+  "navigationBarTitleText": "订单"
+}

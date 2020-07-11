@@ -1,0 +1,112 @@
+page {
+  background-color: #eee;
+}
+.user_info_wrap {
+  height: 45vh;
+  overflow: hidden;
+  background-color: var(--themColor);
+}
+.user_info_wrap .user_img_wrap {
+  position: relative;
+}
+.user_info_wrap .user_img_wrap .user_bg {
+  height: 45vh;
+  filter: blur(7rpx);
+}
+.user_info_wrap .user_img_wrap .user_info {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+  text-align: center;
+}
+.user_info_wrap .user_img_wrap .user_info .user_icon {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_info_wrap .user_img_wrap .user_info .user_name {
+  color: #444;
+  font-weight: 600;
+  font-size: 40rpx;
+  margin-top: 40rpx;
+}
+.user_btn {
+  width: 30%;
+  height: 100rpx;
+  border: 5rpx solid #fff;
+  background-color: pink;
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10rpx;
+  margin: 100rpx auto;
+}
+.user_content {
+  position: relative;
+}
+.user_content .user_main {
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -40rpx;
+}
+.user_content .user_main .history_wrap {
+  background-color: #fff;
+  display: flex;
+  border-radius: 15rpx;
+}
+.user_content .user_main .history_wrap navigator {
+  flex: 1;
+  text-align: center;
+  padding: 15rpx 0;
+}
+.user_content .user_main .history_wrap navigator .his_num {
+  color: var(--themColor);
+}
+.user_content .user_main .history_wrap navigator .his_name {
+  color: #222;
+}
+.user_content .user_main .orders_wrap {
+  background-color: #fff;
+  margin-top: 30rpx;
+  border-radius: 15rpx;
+}
+.user_content .user_main .orders_wrap .orders_title {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.user_content .user_main .orders_wrap .order_content {
+  display: flex;
+}
+.user_content .user_main .orders_wrap .order_content navigator {
+  padding: 20rpx;
+  flex: 1;
+  text-align: center;
+}
+.user_content .user_main .orders_wrap .order_content navigator .iconfont {
+  color: var(--themColor);
+  font-size: 40rpx;
+}
+.user_content .user_main .app_info_wrap {
+  background-color: #fff;
+  margin-top: 30rpx;
+  border-radius: 15rpx;
+}
+.user_content .user_main .app_info_wrap .app_info_item {
+  display: flex;
+  justify-content: space-between;
+  padding: 25rpx 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.user_content .user_main .tuijian {
+  background-color: #fff;
+  margin-top: 30rpx;
+  padding: 25rpx 20rpx;
+  border-radius: 15rpx;
+  margin-bottom: 200rpx;
+}

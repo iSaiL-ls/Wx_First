@@ -1,0 +1,68 @@
+<view class="user_info_wrap">
+  <view class="user_img_wrap" wx:if="{{userInfo}}">
+    <image class="user_bg" src="https://ae01.alicdn.com/kf/H1d8c685f4b1044889b11a16262a95b4dY.jpg" mode="aspectFill" />
+    <view class="user_info">
+      <image class="user_icon" src="{{userInfo.avatarUrl}}"></image>
+      <view class="user_name">{{userInfo.nickName}}</view>
+    </view>
+  </view>
+  <view class="user_btn" wx:else>
+    <navigator url="/pages/login/index">登  录</navigator>
+  </view>
+</view>
+<view class="user_content">
+  <view class="user_main">
+    <!-- 第一个 -->
+    <view class="history_wrap">
+      <navigator>
+        <view class="his_num">0</view>
+        <view class="his_name">收藏的店铺</view>
+      </navigator>
+      <navigator>
+        <view class="his_num">0</view>
+        <view class="his_name">收藏的商品</view>
+      </navigator>
+      <navigator>
+        <view class="his_num">0</view>
+        <view class="his_name">关注的商品</view>
+      </navigator>
+      <navigator>
+        <view class="his_num">0</view>
+        <view class="his_name">我的足迹</view>
+      </navigator>
+    </view>
+    <!-- 第二个 -->
+    <view class="orders_wrap">
+      <view class="orders_title">我的订单</view>
+      <view class="order_content">
+        <navigator url="/pages/order/index?type=1">
+          <view class="iconfont icon-dingdan"></view>
+          <view class="order_name">全部订单</view>
+        </navigator>
+        <navigator url="/pages/order/index?type=2">
+          <view class="iconfont icon-fukuantongzhi"></view>
+          <view class="order_name">代付款</view>
+        </navigator>
+        <navigator url="/pages/order/index?type=3">
+          <view class="iconfont icon-ziyuan"></view>
+          <view class="order_name">待收货</view>
+        </navigator>
+        <navigator>
+          <view class="iconfont icon-zhifu-01"></view>
+          <view class="order_name">退货/退款</view>
+        </navigator>
+      </view>
+    </view>
+    <!-- 第三个 -->
+    <view class="app_info_wrap">
+      <view class="app_info_item">
+        <text>联系客服</text>
+        <text>11223344</text>
+      </view>
+      <view class="app_info_item">意见反馈</view>
+      <view class="app_info_item">关于我们</view>
+    </view>
+    <!-- 第四个 -->
+    <view class="tuijian">推荐给好友</view>
+  </view>
+</view>

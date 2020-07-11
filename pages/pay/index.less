@@ -1,0 +1,161 @@
+/* pages/cart/index.wxss */
+page {
+  padding-bottom: 90rpx;
+}
+
+.revice_address_row {
+
+
+  .user_info_row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1rpx solid #ccc;
+
+    .user_info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 20rpx;
+    }
+
+    .user_phone {
+      padding: 20rpx;
+
+    }
+  }
+
+}
+
+.cart_content {
+  .cart_title {
+    padding: 20rpx;
+    font-size: 36rpx;
+    color: var(--themColor);
+    border-top: 1rpx solid currentColor;
+    border-bottom: 1rpx solid currentColor;
+  }
+
+  .cart_main {
+    .cart_item {
+      padding: 10rpx;
+      display: flex;
+      border-bottom: 1px solid #ccc;
+
+
+
+      .cart_img_wrap {
+        flex: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        image {
+          width: 80%;
+        }
+      }
+
+      .cart_info_wrap {
+        flex: 4;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        .goods_name {
+          display: -webkit-box;
+          overflow: hidden;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          color: #666;
+        }
+
+        .goods_price_wrap {
+          display: flex;
+          justify-content: space-between;
+
+          .goods_price {
+            color: var(--themColor);
+            font-size: 32rpx;
+            padding-top: 30rpx;
+          }
+
+          .cart_num_tool {
+            display: flex;
+            justify-content: center;
+            padding-top: 30rpx;
+
+
+            .goods_num {
+              margin: 0 30rpx;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.footer_tool {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 90rpx;
+  background-color: #fff;
+  display: flex;
+  border-top: 1rpx solid #ccc;
+
+
+
+  .total_price_wrap {
+    flex: 4;
+    text-align: right;
+    padding-right: 15rpx;
+
+    .total_price {
+      .total_price_text {
+        color: var(--themColor);
+        font-size: 34rpx;
+        font-weight: 600;
+      }
+
+      view {
+        font-size: 20rpx;
+      }
+    }
+  }
+
+  .order_pay_wrap {
+    flex: 3;
+    background-color: var(--themColor);
+    color: #fff;
+    font-size: 32rpx;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+// .kongkongruye {
+//   width: 100%;
+//   height: 100px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   font-size: 50rpx;
+//   font-weight: 800;
+//   font-family: "黑体";
+//   color: var(--themColor);
+// }
+
+
+
+.web-font {
+  font-family: "webfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/index",
+    "pages/good_list/index",
+    "pages/good_detail/index",
+    "pages/cart/index",
+    "pages/collect/index",
+    "pages/order/index",
+    "pages/search/index",
+    "pages/user/index",
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/auth/index",
+    "pages/pay/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFB6C1",
+    "navigationBarTitleText": "找不到工作就很烦",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff224da",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icons/home_1.png",
+      "selectedIconPath": "icons/home_2.png"
+    }, {
+      "pagePath": "pages/category/index",
+      "text": "分类",
+      "iconPath": "icons/fenlei_1.png",
+      "selectedIconPath": "icons/fenlei_2.png"
+    }, {
+      "pagePath": "pages/cart/index",
+      "text": "购物车",
+      "iconPath": "icons/gouwuche_1.png",
+      "selectedIconPath": "icons/gouwuche_2.png"
+    }, {
+      "pagePath": "pages/user/index",
+      "text": "我的",
+      "iconPath": "icons/m_1.png",
+      "selectedIconPath": "icons/m_2.png"
+    }]
+  },
+
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

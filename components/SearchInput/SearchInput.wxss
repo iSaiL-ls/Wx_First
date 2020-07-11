@@ -1,0 +1,15 @@
+.Serach_input {
+  height: 12.5vw;
+  padding: 2.778vw;
+  background-color: var(--themColor);
+}
+
+.Serach_input navigator {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 2.778vw;
+  color: #999;
+}
